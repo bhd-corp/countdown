@@ -1,0 +1,118 @@
+body {
+	background: #000;
+	font-family: 'Bebas Neue', cursive;
+}
+h1 {
+	color: #fff;
+	font-size: 300px;
+	position: fixed;left: 330px;
+	width: 300px;
+	top: -150px;
+	font-weight: 10;
+	height: 300px;
+}
+h2 {
+	color: #fff;
+	font-size: 60px;
+	position: fixed;left: 600px;
+	width: 100px;
+	top: -0px;
+	font-weight: 50;
+}
+#yrs {
+	position: relative;top: -200px;
+}
+#yrs2 {
+	position: relative;top: -470px;
+}
+#day {
+	top: 90px;
+}
+#day2 {
+	top: 470px;
+}
+#hrs {
+	top: 380px;
+}
+#hrs2 {
+	top: 760px;
+}
+#min {
+	top: 650px;
+}
+#min2 {
+	top: 1037px;
+}
+#sec {
+	top: 930px;
+}
+#sec2 {
+	top: 1300px;
+}
+#n {
+	display: none;
+}
+.dis h1 {
+	position: relative;text-align: center;
+	width: 600px;
+	left: 80px;
+	font-size: 220px;
+}
+.line {
+	border-top: 10px solid #fff;
+	width: 100%;
+	position: relative;top: -330px;
+}
+h3 {
+	color: #fff;
+	font-size: 90px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	position: relative;top: -280px;
+	height: 100px;
+	font-family: "Poppins";
+}
+h4 {
+	color: #fff;
+	border: 5px solid #fff;
+	width: 400px;
+	font-size: 100px;
+	height: 120px;
+	text-align: center;
+	position: relative;top: 300px;
+}
+#i {
+	position: relative;left: 500px;
+	color: green;
+	top: 190px;
+
+}
+#d {
+	position: relative;top: 450px;
+	color: red;
+	left: 40px;
+}
+.load {
+	display: none;
+}
+#coun {
+	width: 400px;
+	margin: auto;
+	position: relative;left: 290px;
+	top: 400px;
+	animation: wer 3s linear;
+}
+@keyframes wer {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.load h1 {
+	font-size: 120px;
+	position: relative;top: 300px;
+	left: 320px;
+}
